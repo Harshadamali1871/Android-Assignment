@@ -1,0 +1,107 @@
+<html>
+<head>
+<style>
+form
+{
+margin-left:200px;
+}
+label
+{
+font-style:italic;
+font-size:40;
+}
+h1{
+color:brown;
+text-shadow:2px 2px orange;
+font-style:helvetica;
+font-size:70;
+margin-left:50px;
+}
+h3
+{
+font-size:40;
+}
+.button
+{
+color:white;
+text-align:center;
+background-color:indigo;
+display:inline:block;
+font-size:30px;
+margin:4px 2px;
+}
+.button2
+{
+color:white;
+background-color:indigo;
+display:inline:block;
+font-size:30px;
+}
+</style>
+</head>
+<body bgcolor="antiquewhite">
+<h1>Orphanage Donation Form</h1>
+<img align="right" src="C:\wamp64\www\orphan-appeal-charities-in-uk (1).jpg" width="600" height="800">
+<form action="donation_database.php" method="POST">
+<label>Donar's Name</label>
+<input type="text" id="dn1" name="dn1" size="20"/>
+<br>
+<br>
+<label>Donar's Mail ID</label>
+<input type="text" id="id" name="id" size="20"/>
+<br>
+<br>
+<label>Donar's Address </label>
+<input type="text" id="dn2"  name="dn2" size="20"/>
+<br>
+<br>
+<label>Donar's Mobile no.</label>
+<input type="text" id="dn3" name="dn3" size="20"/>
+<br>
+<br>
+<label>Things To Donate</label>
+<br> 
+<input type="checkbox"  id="cloth" name="cloth" value="cloth"/>
+<label>cloth</label><br>
+<input type="checkbox"  id="food" name="food" value="food"/>
+<label>food</label><br>
+<input type="checkbox"  id="books" name="books" value="books"/>
+<label>books</label><br>
+<h3>If you willing to pay Money</h3>
+<input type="checkbox" id="Master card" name="Master card" value="Master card"/>
+<label>Master card</label>
+<br>
+<input type="checkbox" id="Cash" name="Cash" value="Cash"/>
+<label>Cash</label>
+<br>
+<p>FOR CARD</p>
+<label>Card Number</label>
+<input type="text" id="dn4" name="dn4" size="20"/>
+<br>
+<br>
+<label>Cvv</label>
+<input type="text" id="dn5" name="dn5" size="20"/>
+<br>
+<br>
+<label>expiry Date</label>
+<input type="text" id="dn6" name="dn6" size="20"/>
+<br>
+<br>
+<label>Amout</label>
+<input type="text" id="dn7"  name="dn7" size="20"/>
+<br>
+<br>
+<p>FOR CASH</p>
+<br>
+<label>Amout</label>
+<input type="text" id="dn8" name="dn8" size="20"/>
+<br>
+
+
+<button class="button">submit</button>
+<button class="button button2">cancel</button>
+
+
+</form>
+</body>
+</html>
